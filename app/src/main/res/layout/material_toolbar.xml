@@ -5,5 +5,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Material_Toolbar">
-
+    <com.yalantis.jellytoolbar.widget.JellyToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        app:cancelIcon="@drawable/ic_close"
+        app:endColor="@color/colorEnd"
+        app:icon="@drawable/ic_searchtoolbar"
+        app:startColor="@color/colorStart"
+        app:title="News Feed"
+        app:titleTextColor="@android:color/white" />
 </android.support.constraint.ConstraintLayout>

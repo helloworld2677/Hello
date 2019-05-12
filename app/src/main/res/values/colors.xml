@@ -13,5 +13,8 @@
     <color name="gradientEnd">#a0b8f2</color>
     <color name="primary">#B170BE</color>
     <color name="accent">#007DE4</color>
+    <color name="colorStart">#E470FF</color>
+    <color name="colorEnd">#EFA5FF</color>
+    <color name="colorTransparent">#D59393</color>
 
 </resources>
