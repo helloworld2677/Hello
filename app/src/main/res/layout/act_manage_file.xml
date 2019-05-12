@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    tools:openDrawer="start"
+    android:id="@+id/Drawer"
+    android:layout_height="match_parent"
+    tools:context="ir.hello.Act_ManageFile">
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/Edt_Namef"
+        android:hint="Folder Name"
+        android:layout_marginTop="20dp"
+        android:inputType="text"
+        android:maxLength="10"
+        android:maxLines="1"
+        android:paddingLeft="10dp"
+        android:drawableLeft="@drawable/ic_action_create"
+        android:drawablePadding="10dp"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/Edt_Rename"
+        android:hint="Rename Folder"
+        android:inputType="text"
+        android:maxLength="10"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:maxLines="1"
+        android:drawableLeft="@drawable/ic_action_rename"
+        android:drawablePadding="10dp"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="wrap_content"
+        android:text="Create Folder"
+        android:id="@+id/Btn_Create"
+        android:onClick="BtnClick"
+        android:tag="Create_Folder"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shape3"
+        android:padding="7dp"
+        android:layout_marginLeft="4dp"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="wrap_content"
+        android:text="Delete Folder"
+        android:id="@+id/Btn_Delete"
+        android:onClick="BtnClick"
+        android:tag="Delete_Folder"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shape3"
+        android:padding="7dp"
+        android:layout_marginLeft="4dp"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="wrap_content"
+        android:text="Rename Folder"
+        android:layout_marginTop="20dp"
+        android:tag="Rename_Folder"
+        android:onClick="BtnClick"
+        android:layout_marginLeft="4dp"
+        android:id="@+id/Btn_Rename"
+        android:background="@drawable/shape3"
+        android:padding="7dp"
+        android:layout_height="wrap_content" />
+
+
+
+</LinearLayout>

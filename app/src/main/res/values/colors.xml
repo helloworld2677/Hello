@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0CDBFF</color>
+    <color name="colorPrimaryDark">#048597</color>
+    <color name="colorAccent">#65C2EC</color>
+    <color name="slide_1_bf_color">#f64c73</color>
+    <color name="slide_2_bf_color">#34eda6</color>
+    <color name="slide_3_bf_color">#489dff</color>
+    <color name="slide_4_bf_color">#bc70ff</color>
+    <color name="slide_5_bf_color">#7323dc</color>
+
+    <color name="gradientStart">#e2fbff</color>
+    <color name="gradientEnd">#a0b8f2</color>
+    <color name="primary">#B170BE</color>
+    <color name="accent">#007DE4</color>
+
+</resources>

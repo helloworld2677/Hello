@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <android.support.v7.widget.Toolbar
+
+            android:layout_width="match_parent"
+            android:elevation="0dp"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            android:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:src="@drawable/ic_action_back"
+                    android:id="@+id/Img_Back"
+                    android:onClick="SearchClick"
+                    android:tag="Back"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="Iran Shop"
+                    android:textSize="22dp"
+                    android:id="@+id/Text_Title"
+                    android:textStyle="italic|bold"
+                    android:gravity="center"
+                    android:layout_height="match_parent" />
+                <EditText
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:hint="Iran Shop"
+                    android:textSize="22dp"
+                    android:visibility="gone"
+                    android:textStyle="italic|bold"
+                    android:gravity="center"
+                    android:id="@+id/Edit_Title"
+                    android:drawableLeft="@drawable/ic_action_search1"
+                    android:inputType="text"
+                    android:maxLength="20"
+                    android:maxLines="1"
+                    android:layout_height="match_parent" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:id="@+id/Img_Search"
+                    android:tag="Search"
+                    android:src="@drawable/ic_action_search"
+                    android:onClick="SearchClick"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:id="@+id/Img_Share"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/ic_action_share"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:id="@+id/Img_More"
+                    android:src="@drawable/ic_action_more"
+                    android:layout_marginRight="10dp"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>
